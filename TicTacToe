@@ -28,7 +28,7 @@ def get_move():  # asks players for input. returns row and column indexes
     while not space_chosen:
         row_choice = int(input("What row do you want to play? (1, 2, 3) ")) - 1
         col_choice = int(input("What column do you want to play? (1, 2, 3) ")) - 1
-        if row_choice < 0 or row_choice > 3 or col_choice < 0 or col_choice > 3:  # checks if inputs are in bounds
+        if row_choice < 0 or row_choice > 2 or col_choice < 0 or col_choice > 2:  # checks if inputs are in bounds
             print("make sure input is between (1, 2, 3)")
         elif board[row_choice][col_choice] == ' ':  # check if space is empty
             space_chosen = True
