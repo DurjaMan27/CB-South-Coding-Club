@@ -44,7 +44,7 @@ def play():
         if turn_count % 2 == 0:
             player = "X"
         else:
-            player = "Y"
+            player = "O"
         print(f"{player}'s turn")
         row, col = get_move()
         board[row][col] = player
