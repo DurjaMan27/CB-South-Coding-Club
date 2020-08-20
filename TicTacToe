@@ -33,7 +33,7 @@ def get_move():  # asks players for input. returns row and column indexes
         elif board[row_choice][col_choice] == ' ':  # check if space is empty
             space_chosen = True
         else:
-            print("Space unavailable. Try again!")
+            print("Spot unavailable. Try again!")
     return row_choice, col_choice
 
 
@@ -41,16 +41,19 @@ def play():
     turn_count = 0  # count of the number of turns that have elapsed in the game
     while winner() is None and turn_count < 9:
         print_board()
-        row, col = get_move()
         if turn_count % 2 == 0:
-            board[row][col] = 'X'
+            player = "X"
         else:
-            board[row][col] = 'O'
+            player = "Y"
+        print(f"{player}'s turn")
+        row, col = get_move()
+        board[row][col] = player
         turn_count += 1
     print_board()
     if winner() is None:
         print("Tie!")
     else:
-        print(f"Winner is {winner()}")
+        print(f"{winner()} wins!")
+
 
 play()
