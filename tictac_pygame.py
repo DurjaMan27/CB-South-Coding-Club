@@ -97,8 +97,7 @@ def game_loop():
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                pygame.quit()
-                quit()
+                run = False
 
             try:
                 if event.type == pygame.MOUSEBUTTONDOWN:
