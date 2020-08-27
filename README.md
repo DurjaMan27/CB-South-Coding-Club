@@ -1,4 +1,4 @@
-# CBSouth-Coding-Club
+# CB South Coding Club
 Code repository for everything Coding Club!
 
 Welcome to the Coding Club!
