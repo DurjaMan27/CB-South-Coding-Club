@@ -2,7 +2,7 @@
 Code repository for everything Coding Club!
 
 Welcome to the Coding Club!
-Here, you can find all the programs we develop in the club. Enjoy and Happy Coding!
+Here, you can find all the programs we develop in the club. Enjoy, and Happy Coding!
 
 Our mission:
 The Coding Club is dedicated to fostering the study of computer science within the
