@@ -10,3 +10,5 @@ CB South community. Our hope is that everyone who wants to learn code has the op
 and can find inspiration to learn more. Above all, we want to code for fun!
 
 Check out the code for the CB South Coding Club website: https://github.com/kevinhe5/CB-South-Coding-Club-Website
+
+Check out our YouTube channel for meeting recordings and coding tutorials: https://www.youtube.com/channel/UCuQqz74RMGjJu95pE1Ba0cg
